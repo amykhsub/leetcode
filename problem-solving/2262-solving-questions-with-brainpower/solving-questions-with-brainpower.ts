@@ -6,8 +6,8 @@
  * If the index in scope of questions, add those points to current question weight,
  *    and make sure with Math.max(...) that each i+1 question includes weight of follow questions.
  * 
- * Time:  O(n). Questions iteration.
- * Space: O(n). It requires O(n) space to store the maximum points for each subproblem.
+ * Time:  O(n). Questions iteration
+ * Space: O(n). It requires O(n) space to store the maximum points for each subproblem
  */
 function mostPoints(questions: number[][]): number {
     const n = questions.length;
